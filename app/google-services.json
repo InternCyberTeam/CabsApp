@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "206311258172",
+    "firebase_url": "https://cyberteamintern.firebaseio.com",
+    "project_id": "cyberteamintern",
+    "storage_bucket": "cyberteamintern.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206311258172:android:4faf6343311e6af5",
+        "android_client_info": {
+          "package_name": "cabsapp.intern.cyberteam.cabsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206311258172-v62v3s0tq47c4aron0qin5sliqgbnhc0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cabsapp.intern.cyberteam.cabsapp",
+            "certificate_hash": "0a62cefb474c632e87688ac704c84808020f0d3e"
+          }
+        },
+        {
+          "client_id": "206311258172-llkfq6sri3amv95saltmo850fct96apr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCisqji5d_6QPEfUrqEFVEinB-mEZjnhQk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206311258172-llkfq6sri3amv95saltmo850fct96apr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
