@@ -11,5 +11,11 @@
     <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
     <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
     <string name="login"><u>Log in</u></string>
+    <string name="registration_text">Registration Page</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone Number</string>
+    <string name="password">********</string>
 
 </resources>

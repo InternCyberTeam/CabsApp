@@ -2,6 +2,7 @@ package cabsapp.intern.cyberteam.cabsapp;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -25,6 +26,10 @@ public class LoginActivity extends AppCompatActivity {
     private ProgressDialog mProgressDialog;
     //private ProgressBar progressBar;
     private Button btnSignup, btnLogin, btnReset;
+
+    private final String KEY_NAME = "name";
+    private final String KEY_USERNAME = "username";
+    private final String KEY_PHONE = "phone";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -101,6 +106,7 @@ public class LoginActivity extends AppCompatActivity {
                                     }
                                 } else {
                                     Toast.makeText(LoginActivity.this, "Logged in Successfully!", Toast.LENGTH_LONG).show();
+                                    getUserProfile();
                                     Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                                     startActivity(intent);
                                     finish();
@@ -117,5 +123,19 @@ public class LoginActivity extends AppCompatActivity {
         a.addCategory(Intent.CATEGORY_HOME);
         a.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(a);
+    }
+
+    private void getUserProfile() {
+        String name = PreferenceManager.getDefaultSharedPreferences(this)
+                .getString(KEY_NAME, null);
+        String username = PreferenceManager.getDefaultSharedPreferences(this)
+                .getString(KEY_USERNAME, null);
+        String phone = PreferenceManager.getDefaultSharedPreferences(this)
+                .getString(KEY_PHONE, null);
+
+        Toast.makeText(this, "Name : " + name +
+                        "\nUsername : " + username +
+                        "\nPhone Number : " + phone,
+                Toast.LENGTH_SHORT).show();
     }
 }

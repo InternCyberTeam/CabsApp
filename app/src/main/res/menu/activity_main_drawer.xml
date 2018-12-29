@@ -16,9 +16,9 @@
         <item android:title="Group B">
             <menu>
                 <item
-                    android:id="@+id/option1"
-                    android:icon="@drawable/ic_menu_manage"
-                    android:title="Option 1" />
+                    android:id="@+id/user_profile"
+                    android:icon="@drawable/user"
+                    android:title="User Profile" />
                 <item
                     android:id="@+id/option2"
                     android:icon="@drawable/ic_menu_manage"
