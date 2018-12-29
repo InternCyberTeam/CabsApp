@@ -8,9 +8,9 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:alpha="0.5"
+        android:alpha="0.2"
         android:scaleType="centerCrop"
-        android:src="@drawable/events8" />
+        android:src="@drawable/background" />
 
     <LinearLayout
         android:id="@+id/inputFields"

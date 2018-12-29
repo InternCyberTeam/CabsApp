@@ -8,7 +8,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:alpha="1"
+        android:alpha="0.2"
         android:scaleType="centerCrop"
         android:src="@drawable/background" />
 
@@ -21,8 +21,7 @@
         android:layout_marginTop="32dp"
         android:text="@string/registration_text"
         android:textSize="28sp"
-        android:textStyle="bold"
-        android:textColor="#FFFFFF"/>
+        android:textStyle="bold"/>
 
     <ImageView
         android:id="@+id/profile_pic"
@@ -58,8 +57,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:hint="@string/name"
-                android:singleLine="true"
-                android:textColorHint="#FFFFFF"/>
+                android:singleLine="true"/>
 
             <!--<EditText-->
                 <!--android:layout_height="wrap_content"-->
@@ -110,8 +108,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:hint="@string/username"
-                android:singleLine="true"
-                android:textColorHint="#FFFFFF"/>
+                android:singleLine="true"/>
 
             <EditText
                 android:id="@+id/signup_email_edittext"
@@ -119,8 +116,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:hint="@string/email"
-                android:singleLine="true"
-                android:textColorHint="#FFFFFF"/>
+                android:singleLine="true"/>
 
             <EditText
                 android:id="@+id/signup_password_edittext"
@@ -129,8 +125,7 @@
                 android:layout_marginTop="16dp"
                 android:hint="@string/password"
                 android:inputType="textPassword"
-                android:singleLine="true"
-                android:textColorHint="#FFFFFF"/>
+                android:singleLine="true"/>
 
             <EditText
                 android:id="@+id/phone_number_edittext"
@@ -140,8 +135,7 @@
                 android:inputType="phone"
                 android:hint="@string/phone"
                 android:layout_marginBottom="16dp"
-                android:singleLine="true"
-                android:textColorHint="#FFFFFF"/>
+                android:singleLine="true"/>
 
         </LinearLayout>
     </ScrollView>
@@ -154,8 +148,7 @@
         android:layout_marginLeft="72dp"
         android:layout_marginRight="72dp"
         android:background="@drawable/my_button"
-        android:text="@string/sign_up"
-        android:textColor="#FFFFFF"/>
+        android:text="@string/sign_up"/>
     <!--android:layout_below="@id/scrollview_signup_details"/>-->
 
     <LinearLayout
@@ -173,7 +166,6 @@
             android:layout_height="wrap_content"
             android:text="Already Registered?"
             android:textAlignment="center"
-            android:textColor="#DDDDDD"
             android:textStyle="bold" />
 
 
@@ -184,7 +176,6 @@
             android:layout_marginLeft="5dp"
             android:text="@string/login"
             android:textAlignment="center"
-            android:textColor="#DDDDDD"
             android:textStyle="bold" />
 
     </LinearLayout>
